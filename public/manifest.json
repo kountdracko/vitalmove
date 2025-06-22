@@ -1,0 +1,9 @@
+{
+  "short_name": "VitalMove",
+  "name": "VitalMove - Rutinas Diarias",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
