@@ -7,9 +7,11 @@ function App() {
     switch (screen) {
       case "home":
         return (
-          <div>
-            <h1>Bienvenido a VitalMove</h1>
-            <p>Activa tu cuerpo con rutinas de calistenia y yoga.</p>
+          <div style={{ paddingTop: '15vh' }}>
+            <h1 style={{ fontSize: '2.5rem' }}>Bienvenido a</h1>
+            <h2 style={{ fontSize: '2.5rem', color: '#ff8734', marginBottom: '2rem' }}>
+              VitalMove
+            </h2>
             <button onClick={() => setScreen("calistenia")}>💪 Calistenia</button>
             <button onClick={() => setScreen("yoga")}>🧘 Yoga</button>
             <button onClick={() => setScreen("progreso")}>📊 Progreso</button>
@@ -19,7 +21,7 @@ function App() {
         return (
           <div>
             <h2>Rutina de Mañana</h2>
-            <ul>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
               <li>Jumping Jacks - 1 min</li>
               <li>Sentadillas - 15 rep</li>
               <li>Flexiones - 10 rep</li>
@@ -31,7 +33,7 @@ function App() {
         return (
           <div>
             <h2>Rutina Nocturna</h2>
-            <ul>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
               <li>Postura del niño - 2 min</li>
               <li>Gato-vaca - 1 min</li>
               <li>Savasana - 3 min</li>
@@ -54,7 +56,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: 24, fontFamily: "Arial, sans-serif" }}>
+    <div>
       {renderContent()}
     </div>
   );

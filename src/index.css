@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: radial-gradient(circle at center, #1e0b3c, #3c1a56, #120229);
+  color: white;
+  text-align: center;
+}
+button {
+  background-color: #1f1f2e;
+  color: #ff8734;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 70%;
+  max-width: 300px;
+}
+button:hover {
+  background-color: #2d2d3f;
+}
